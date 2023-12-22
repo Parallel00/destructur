@@ -5,7 +5,7 @@ Object Destructuring 1
 
 Object Destructuring 2
 
-3. the console.log will return {yearNeptuneDiscovered: 1846, yearMarsDiscovered: 1659}
+1. the console.log will return {yearNeptuneDiscovered: 1846, yearMarsDiscovered: 1659}
 
 Object Destructuring 3
 
