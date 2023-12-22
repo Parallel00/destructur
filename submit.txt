@@ -1,0 +1,69 @@
+Object Destructuring 1
+
+1. numPlanets will return 8
+2. yearNeptuneDiscovered will return 1846
+
+Object Destructuring 2
+
+3. the console.log will return {yearNeptuneDiscovered: 1846, yearMarsDiscovered: 1659}
+
+Object Destructuring 3
+
+1. Your name is Alejandro and you like purple
+2. Your name is Melissa and you like green
+3. Your name is undefined adn you like green
+
+Array Destructuring 1
+
+1. Maya
+2. Marisa
+3. Chi
+
+Array Destructuring 2
+
+1. Raindrops on roses
+2. Whiskers on kittens
+3. ["Bright copper kettles", "warm woolen mittens", "Brown paper packages tied up with strings"]
+
+Array Destructuring 3
+
+1. [10, 30, 20]
+
+ES 2015 Refactoring
+
+Assigning Variables to Object Properties
+
+var obj = {numbers: {
+	a: 1,
+	b: 2,
+	}
+};
+
+var a = obj.numbers.a;
+var b = obj.numbers.b;
+
+Object Destructuring
+
+const obj = {numbers: {
+	a: 1,
+	b: 2
+	}
+
+};
+
+const {a,b} = obj.numbers;
+
+Array Swap
+
+var arr = [1, 2];
+var temp = arr[0];
+arr[0] = arr[1];
+arr[1] = temp;
+
+One line array swap with destructuring
+
+[arr[0], arr[1]] = [arr[1], arr[0]]
+
+raceResults
+
+const raceResults = ([first, second, third, ...rest]) => ({first, second, third, rest})
